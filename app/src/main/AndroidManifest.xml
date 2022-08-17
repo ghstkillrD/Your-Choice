@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.votingapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VotingApp">
+        <activity
+            android:name=".Voting"
+            android:exported="true" />
+        <activity
+            android:name=".UpdateEvent"
+            android:exported="true" />
+        <activity
+            android:name=".UpdateCandidate"
+            android:exported="true" />
+        <activity
+            android:name=".UpdateVoter"
+            android:exported="true" />
+        <activity
+            android:name=".UpdateUser"
+            android:exported="true" />
+        <activity
+            android:name=".Casting"
+            android:exported="true" />
+        <activity
+            android:name=".SingleVoter"
+            android:exported="true" />
+        <activity
+            android:name=".SingleCandidate"
+            android:exported="true" />
+        <activity
+            android:name=".ViewVoters"
+            android:exported="true" />
+        <activity
+            android:name=".ViewCandidates"
+            android:exported="true" />
+        <activity
+            android:name=".SingleEvent"
+            android:exported="true" />
+        <activity
+            android:name=".MyEvents"
+            android:exported="true" />
+        <activity
+            android:name=".Profile"
+            android:exported="true" />
+        <activity
+            android:name=".CreateEvent"
+            android:exported="true" />
+        <activity
+            android:name=".AddVoter"
+            android:exported="true" />
+        <activity
+            android:name=".AddCandidate"
+            android:exported="true" />
+        <activity
+            android:name=".CastAVote"
+            android:exported="true" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".SignUp"
+            android:exported="true" />
+        <activity
+            android:name=".SignIn"
+            android:exported="true" />
+        <activity
+            android:name=".MainMenu"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

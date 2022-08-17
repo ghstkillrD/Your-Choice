@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "173278281306",
+    "project_id": "online-voting-system---mad",
+    "storage_bucket": "online-voting-system---mad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173278281306:android:6dc989ac2d6e80694c2263",
+        "android_client_info": {
+          "package_name": "com.example.votingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173278281306-ql45gnu2do83kkhm54rjvhud46f1168g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9p-9RLbBuSsehqg6QFEY6YzC65U-PReU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173278281306-ql45gnu2do83kkhm54rjvhud46f1168g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
